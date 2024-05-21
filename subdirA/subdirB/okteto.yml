@@ -1,0 +1,5 @@
+deploy:
+  - echo "current path: $(pwd)"
+
+destroy:
+  - echo "destroying using manifest: $(pwd)"

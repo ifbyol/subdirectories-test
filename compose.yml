@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  root:
+    image: nginx
+    ports:
+      - 80
