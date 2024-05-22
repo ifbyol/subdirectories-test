@@ -1,5 +1,7 @@
 deploy:
-  - "echo \"current path: $(pwd)\""
+  commands:
+    - name: "echo"
+      command: "echo \"current path: $(pwd)\""
 
 destroy:
   - "echo \"destroying using manifest: $(pwd)\""
