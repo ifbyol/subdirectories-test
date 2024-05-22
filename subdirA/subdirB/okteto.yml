@@ -3,3 +3,4 @@ deploy:
 
 destroy:
   - "echo \"destroying using manifest: $(pwd)\""
+  - sleep 20
