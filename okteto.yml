@@ -5,4 +5,5 @@ deploy:
 
 destroy:
   - "echo \"destroying using manifest: $(pwd)\""
+  -  "echo destroying!"
   - sleep 20
