@@ -1,7 +1,3 @@
-build:
-  test:
-    context: .
-
 deploy:
   - "echo \"current path: $(pwd)\""
   - cat Dockerfile
