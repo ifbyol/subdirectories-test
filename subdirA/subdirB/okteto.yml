@@ -4,6 +4,7 @@ build:
 
 deploy:
   - "echo \"current path: $(pwd)\""
+  - cat Dockerfile
 
 destroy:
   - "echo \"destroying using manifest: $(pwd)\""
