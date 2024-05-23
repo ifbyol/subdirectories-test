@@ -1,3 +1,7 @@
+build:
+  test:
+    context: .
+
 deploy:
   - "echo \"current path: $(pwd)\""
 
